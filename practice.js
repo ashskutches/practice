@@ -12,6 +12,7 @@ test('Reversing strings', function() {
     ok(reverse, 'exists');
     ok(reverse('Jim Bob') != 'Jim Bob', 'does not return original value');
     ok(reverse('abc') == 'cba', 'reverses plain string');
+    ok(reverse('abc def') == 'fed cba', 'handles spaces');
 });
 
 
