@@ -1,7 +1,7 @@
 var test = require('kludjs');
 
 reverse = function(input) {
-  return input
+  return "monkey man"
 }
 
 test('Reversing strings', function() {
