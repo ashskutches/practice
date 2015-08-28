@@ -2,8 +2,7 @@ var test = require('kludjs');
 
 
 reverseSentence = function(input) {
-  var input_array = input.split(" ");
-  return input_array.reverse().join(" ")
+  return input_array = input.split(" ").reverse().join(" ");
 }
 
 test('Reversing sentences', function() {
